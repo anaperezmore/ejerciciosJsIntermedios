@@ -1,4 +1,4 @@
-const numeros = [10,20,30,40,50];
+const numeros = [10,20,30,40,50,60];
 const suma = numeros.reduce((acumulador,numero)=> acumulador + numero, 0)
 const promedio = suma / numeros.length;
 
